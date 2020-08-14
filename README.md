@@ -1,5 +1,6 @@
 # events
 
+```
 54.90.166.91
 54.163.33.85
 54.147.145.202
@@ -20,3 +21,16 @@
 3.94.100.225
 34.229.126.110
 18.234.223.13
+```
+
+# login
+
+```
+$ ssh -i X.pem ubuntu@IP
+$ sudo su
+$ git clone https://github.com/magd-kudama-dev/events
+$ cd events
+$ ./download.sh
+$ ./tests.sh
+```
+
